@@ -5,6 +5,7 @@ $experimental-support-for-khtml: false;
 @import "compass/css3";
 @import "compass/typography";
 @import "compass/css3/box";
+@import "compass/css3/border-radius";
 
 // Basic items for making modals work
 @import "bootstrap/mixins";
@@ -13,37 +14,37 @@ $experimental-support-for-khtml: false;
 
 @import 'core';
 
-@import "cms/includes/_rem";
-@import "cms/includes/_animation";
+@import "cms/includes/rem.css";
+@import "cms/includes/animation.css";
 
 
 /* IMPORTING STYLES */
-@import 'cms/styles/_base-grid';
-@import 'cms/styles/_text';
-@import 'cms/styles/_images';
-@import 'cms/styles/_lists';
-@import 'cms/styles/_buttons';
-@import 'cms/styles/_tables';
-@import 'cms/styles/_forms';
-@import 'cms/styles/_dropdown';
-@import 'cms/styles/_progress';
-@import 'cms/styles/_alerts';
-@import 'cms/styles/_modal';
-@import 'cms/styles/_glyph';
+@import 'cms/styles/base-grid.css';
+@import 'cms/styles/text.css';
+@import 'cms/styles/images.css';
+@import 'cms/styles/lists.css';
+@import 'cms/styles/buttons.css';
+@import 'cms/styles/tables.css';
+@import 'cms/styles/forms.css';
+@import 'cms/styles/dropdown.css';
+@import 'cms/styles/progress.css';
+@import 'cms/styles/alerts.css';
+@import 'cms/styles/modal.css';
+@import 'cms/styles/glyph.css';
 
 
 
 
 /* PAGE STYLE & LAYOUT IMPORTS */
-@import 'cms/_base';
+@import 'cms/base.css';
 
-@import 'cms/_colors';
-@import 'cms/_cms-buttons';
-@import 'cms/_cms-forms';
-@import 'cms/_nav';
-@import 'cms/_submenu';
-@import 'cms/_main-area';
-@import 'cms/_sitemap';
-@import 'cms/_assets';
-@import 'cms/_dashboard';
-@import 'cms/_sidebar';
+@import 'cms/colors.css';
+@import 'cms/cms-buttons.css';
+@import 'cms/cms-forms.css';
+@import 'cms/nav.css';
+@import 'cms/submenu.css';
+@import 'cms/main-area.css';
+@import 'cms/sitemap.css';
+@import 'cms/assets.css';
+@import 'cms/dashboard.css';
+@import 'cms/sidebar.css';

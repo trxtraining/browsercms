@@ -49,13 +49,8 @@ body {
 	position: relative;
 	overflow-x: hidden;
 }
-* {
-   	@include box-sizing(border-box);
-
-   	&:after,
-   	&:before {
-   		@include box-sizing(border-box);
-   	}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /* CLEAR & FLOATS */
