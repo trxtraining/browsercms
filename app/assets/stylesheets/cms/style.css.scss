@@ -111,30 +111,30 @@ body {
 
 
 /* IMPORTING STYLES */
-@import 'styles/_base-grid.css';
-@import 'styles/_text.css';
-@import 'styles/_images.css';
-@import 'styles/_lists.css';
-@import 'styles/_buttons.css';
-@import 'styles/_tables.css';
-@import 'styles/_forms.css';
-@import 'styles/_dropdown.css';
-@import 'styles/_progress.css';
-@import 'styles/_alerts.css';
-@import 'styles/_glyph.css';
+@import 'styles/_base-grid';
+@import 'styles/_text';
+@import 'styles/_images';
+@import 'styles/_lists';
+@import 'styles/_buttons';
+@import 'styles/_tables';
+@import 'styles/_forms';
+@import 'styles/_dropdown';
+@import 'styles/_progress';
+@import 'styles/_alerts';
+@import 'styles/_glyph';
 
 
 
 
 /* PAGE STYLE & LAYOUT IMPORTS */
-@import '_base.css';
-@import '_assets.css';
+@import '_base';
+@import '_assets';
 
-@import '_colors.css';
-@import '_cms-buttons.css';
-@import '_cms-forms.css';
+@import '_colors';
+@import '_cms-buttons';
+@import '_cms-forms';
 
-@import '_nav.css';
-@import '_main-area.css';
-@import '_sitemap.css';
-@import '_sidebar.css';
+@import '_nav';
+@import '_main-area';
+@import '_sitemap';
+@import '_sidebar';
