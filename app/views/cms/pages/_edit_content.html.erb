@@ -4,7 +4,7 @@
                        remove: cms.connector_path(connector, format: :json),
                        edit_path: edit_engine_aware_path(connectable, :_redirect_to => @page.path)
                 } do %>
-    <% if (!content_supports_inline_editing?(connector)) %>
+    <% if false && (!content_supports_inline_editing?(connector)) %>
         <%= link_to(image_tag('cms/arrow-up.png', class: 'cms-move-up-content-link'),
                     move_up_connector_path(connector),
                     method: :put,

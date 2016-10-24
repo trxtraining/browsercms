@@ -88,7 +88,7 @@ module Cms
     # Some content doesn't have inline editing, so we need to conditionally show move up/down/remove buttons on the page
     def content_supports_inline_editing?(connector)
       content = connector.connectable
-      content.supports_inline_editing?
+      content.present? ? content.supports_inline_editing? : false  # for certain types (blogs, on /train) this is nil
     end
     ##
     # Renders the toolbar for the CMS. All page templates need to include this or they won't be editable.
